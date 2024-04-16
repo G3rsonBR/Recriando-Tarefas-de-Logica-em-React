@@ -5,6 +5,12 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html {
+  background-color: #131516;
+  color:  #d8d4cf;
+
+}
+
 /* Scrollbar Style*/
 ::-webkit-scrollbar {
   width: 5px;
@@ -37,8 +43,8 @@ h1 {
 .btn {
   width: 200px;
   padding: 15px 20px;
-  background-color: rgb(57, 57, 94);
-  color: aliceblue;
+  background-color: rgb(46, 46, 75);
+  color: rgb(194, 228, 255);
   font-size: 1rem;
   font-weight: 500;
   border-radius: 5px;
@@ -49,7 +55,7 @@ h1 {
 
 .btn:hover {
   transform: scale(1.01);
-  background-color: rgb(26, 26, 54);
+  background-color: rgb(78, 78, 104);
 }
 
 .btn-exercise {
