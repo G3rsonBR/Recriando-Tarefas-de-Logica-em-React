@@ -1,4 +1,5 @@
 import { Button } from "./components/Button";
+import { Div } from "./components/Div";
 import { exercisesManzano } from "./assets/exercisesManzano";
 import { exercisesFaccat } from "./assets/exercisesFaccat";
 import { useState, createElement } from "react";
@@ -8,46 +9,32 @@ export default function App() {
   const [showFaccat, setShowFaccat] = useState(false);
   const [showManzano, setShowManzano] = useState(false);
 
-  function createElementExercises({ text }) {
-    return createElement(
-      "div",
-      { className: "exercises" },
-      createElement("p", null, text)
-    );
-  }
-
   return (
     <>
       <h1 className="title">Exercícios</h1>
       <div className="buttons">
-        <button
+        <Button
           className="btn"
-          onClick={() => {
+          name="Faccat"
+          functionName={() => {
             setShowManzano(false);
             setShowFaccat(!showFaccat);
           }}
-        >
-          Faccat
-        </button>
-        <button
+        />
+        <Button
           className="btn"
-          onClick={() => {
+          name="Mazano"
+          functionName={() => {
             setShowFaccat(false);
             setShowManzano(!showManzano);
           }}
-        >
-          Manzano
-        </button>
+        />
       </div>
 
       {showFaccat ? (
-        <div className="faccat exercises">
-          <p className="firstChildExercises">
-            (Alguns exercícios pulam em números específicos. Não é porque
-            faltou, é porque eram testes de mesa, e não tinha necessidade de
-            trazer para esse tipo de exercício.)
-          </p>
-          {exercisesFaccat.map((exercise, index) => (
+        <Div
+          className="faccat exercises"
+          content={exercisesManzano.map((exercise, index) => (
             <Button
               className="btn btn-exercise"
               key={index}
@@ -55,19 +42,28 @@ export default function App() {
               functionName={exercise.func}
             />
           ))}
-        </div>
+          contentText="(Alguns exercícios pulam em números específicos. Não é porque faltou, é porque eram testes de mesa, e não tinha necessidade de trazer para esse tipo de exercício.)"
+        />
       ) : null}
 
       {showManzano ? (
-        <div className="manzano exercises">
-          {exercisesManzano.map((exercise, index) => (
-            <Button
-              className="btn btn-exercise"
-              key={index}
-              name={exercise.name}
-              functionName={exercise.func}
-            />
-          ))}
+        <div className="manzano">
+          <Div
+            className="exercises"
+            content={exercisesFaccat.map((exercise, index) => {
+              if (index < 13) {
+                return (
+                  <Button
+                    className="btn btn-exercise"
+                    key={index}
+                    name={exercise.name}
+                    functionName={exercise.func}
+                  />
+                );
+              }
+            })}
+            contentText="Exercícios Páginas 25 e 26"
+          />
         </div>
       ) : null}
     </>
