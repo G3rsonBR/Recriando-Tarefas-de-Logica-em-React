@@ -67,7 +67,7 @@ export default function App() {
  <Div
             className="exercises"
             content={exercisesFaccat.map((exercise, index) => {
-              if (index >= 13 && index < 26) {
+              if (index >= 13 && index < 25) {
                 return (
                   <Button
                     className="btn btn-exercise"
@@ -83,7 +83,7 @@ export default function App() {
 <Div
             className="exercises"
             content={exercisesFaccat.map((exercise, index) => {
-              if (index >= 26 && index < 38) {
+              if (index >= 25 && index < 37) {
                 return (
                   <Button
                     className="btn btn-exercise"
@@ -99,7 +99,7 @@ export default function App() {
 <Div
             className="exercises"
             content={exercisesFaccat.map((exercise, index) => {
-              if (index >= 38 && index < 47) {
+              if (index >= 37 && index < 46) {
                 return (
                   <Button
                     className="btn btn-exercise"
@@ -115,7 +115,7 @@ export default function App() {
 <Div
             className="exercises"
             content={exercisesFaccat.map((exercise, index) => {
-              if (index >= 47 && index < 58) {
+              if (index >= 46 && index < 57) {
                 return (
                   <Button
                     className="btn btn-exercise"
