@@ -34,7 +34,7 @@ export default function App() {
       {showFaccat ? (
         <Div
           className="faccat exercises"
-          content={exercisesManzano.map((exercise, index) => (
+          content={exercisesFaccat.map((exercise, index) => (
             <Button
               className="btn btn-exercise"
               key={index}
@@ -50,7 +50,7 @@ export default function App() {
         <div className="manzano">
           <Div
             className="exercises"
-            content={exercisesFaccat.map((exercise, index) => {
+            content={exercisesManzano.map((exercise, index) => {
               if (index < 13) {
                 return (
                   <Button
@@ -66,7 +66,7 @@ export default function App() {
           />
  <Div
             className="exercises"
-            content={exercisesFaccat.map((exercise, index) => {
+            content={exercisesManzano.map((exercise, index) => {
               if (index >= 13 && index < 25) {
                 return (
                   <Button
@@ -82,7 +82,7 @@ export default function App() {
           />
 <Div
             className="exercises"
-            content={exercisesFaccat.map((exercise, index) => {
+            content={exercisesManzano.map((exercise, index) => {
               if (index >= 25 && index < 37) {
                 return (
                   <Button
@@ -98,7 +98,7 @@ export default function App() {
           />
 <Div
             className="exercises"
-            content={exercisesFaccat.map((exercise, index) => {
+            content={exercisesManzano.map((exercise, index) => {
               if (index >= 37 && index < 46) {
                 return (
                   <Button
@@ -114,7 +114,7 @@ export default function App() {
           />
 <Div
             className="exercises"
-            content={exercisesFaccat.map((exercise, index) => {
+            content={exercisesManzano.map((exercise, index) => {
               if (index >= 46 && index < 57) {
                 return (
                   <Button
