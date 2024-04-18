@@ -60,7 +60,7 @@ export const exercisesManzano = [
 
 // Exercicios da página 25 e 26
 function exercise1() {
-  alert(`Você escolheu o ${addTextoBtn[0]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[0].name}! Clique para continuar.`);
 
   let grausC = parseFloat(prompt('Digite a temperatura em Celsius: '));
   let conversao = (9 * grausC + 160) / 5;
@@ -69,7 +69,7 @@ function exercise1() {
 }
 
 function exercise2() {
-  alert(`Você escolheu o ${addTextoBtn[1]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[1].name}! Clique para continuar.`);
 
   let grausF = parseFloat(prompt('Digite a temperatura em Fahrenheit: '));
   let conversao = (grausF - 32) / 1.8;
@@ -78,7 +78,7 @@ function exercise2() {
 }
 
 function exercise3() {
-  alert(`Você escolheu o ${addTextoBtn[2]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[2].name}! Clique para continuar.`);
 
   let altura = parseFloat(prompt("Digite a altura da Lata de óleo (em cm): "));
   let raio = parseFloat(prompt("Digite o raio da Lata de óleo: "));
@@ -89,7 +89,7 @@ function exercise3() {
 }
 
 function exercise4() {
-  alert(`Você escolheu o ${addTextoBtn[3]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[3].name}! Clique para continuar.`);
 
   let temp = parseFloat(prompt("Digite quanto tempo levou a viagem (em horas): "));
   let velocidade = parseFloat(prompt("Digite qual era a velocidade média no veículo (em KM): "));
@@ -101,7 +101,7 @@ function exercise4() {
 }
 
 function exercise5() {
-  alert(`Você escolheu o ${addTextoBtn[4]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[4].name}! Clique para continuar.`);
 
   let valor = parseFloat(prompt("Qual é o valor da prestação atrasada: "));
   let taxa = parseFloat(prompt("Qual é a taxa aplicada na prestação atrasada: "));
@@ -113,7 +113,7 @@ function exercise5() {
 }
 
 function exercise6() {
-  alert(`Você escolheu o ${addTextoBtn[5]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[5].name}! Clique para continuar.`);
 
   let a = parseFloat(prompt("Digite o primeiro valor: "));
   let b = parseFloat(prompt("Digite o segundo valor: "));
@@ -123,7 +123,7 @@ function exercise6() {
 }
 
 function exercise7() {
-  alert(`Você escolheu o ${addTextoBtn[6]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[6].name}! Clique para continuar.`);
 
   let a = parseInt(prompt("Digite o valor de A: "));
   let b = parseInt(prompt("Digite o valor de B: "));
@@ -157,7 +157,7 @@ A multiplicação de C com D é: ${c * d}
 }
 
 function exercise8() {
-  alert(`Você escolheu o ${addTextoBtn[7]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[7].name}! Clique para continuar.`);
 
   let comprimento = parseFloat(prompt("Digite o valor do comprimento da caixa: "));
   let altura = parseFloat(prompt("Digite o valor da altura da caixa: "));
@@ -169,7 +169,7 @@ function exercise8() {
 }
 
 function exercise9() {
-  alert(`Você escolheu o ${addTextoBtn[8]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[8].name}! Clique para continuar.`);
 
   let num1 = parseInt(prompt("Digite o primeiro valor: "));
   let num2 = parseInt(prompt("Digite o segundo valor: "));
@@ -180,7 +180,7 @@ function exercise9() {
 }
 
 function exercise10() {
-  alert(`Você escolheu o ${addTextoBtn[9]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[9].name}! Clique para continuar.`);
 
   let cotacao = parseFloat(prompt("Digite a cotação atual do Dólar (em R$): "));
   let quantidade = parseFloat(prompt("Digite a quantidade de dólares para conversão em reais: "));
@@ -189,7 +189,7 @@ function exercise10() {
 }
 
 function exercise11() {
-  alert(`Você escolheu o ${addTextoBtn[10]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[10].name}! Clique para continuar.`);
 
   let cotacao = parseFloat(prompt("Digite a cotação atual do Dólar (em R$): "));
   let quantidade = parseFloat(prompt("Digite a quantidade de reais para conversão em dólares: "));
@@ -198,7 +198,7 @@ function exercise11() {
 }
 
 function exercise12() {
-  alert(`Você escolheu o ${addTextoBtn[11]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[11].name}! Clique para continuar.`);
 
   let num1 = parseFloat(prompt("Digite o primeiro número: "));
   let num2 = parseFloat(prompt("Digite o segundo número: "));
@@ -215,7 +215,7 @@ A Soma dos Quadrados: ${calc}
 }
 
 function exercise13() {
-  alert(`Você escolheu o ${addTextoBtn[12]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[12].name}! Clique para continuar.`);
 
   let num1 = parseFloat(prompt("Digite o primeiro número: "));
   let num2 = parseFloat(prompt("Digite o segundo número: "));
@@ -234,7 +234,7 @@ O Quadrado da Soma: ${square}`);
 
 // Exercícios pag 41 e 42
 function exercise14() {
-  alert(`Você escolheu o ${addTextoBtn[13]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[13].name}! Clique para continuar.`);
 
   const num1 = parseInt(prompt("Digite o primeiro valor: "));
   const num2 = parseInt(prompt("Digite o segundo valor: "));
@@ -244,7 +244,7 @@ function exercise14() {
 }
 
 function exercise15() {
-  alert(`Você escolheu o ${addTextoBtn[14]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[14].name}! Clique para continuar.`);
 
   const num = parseInt(prompt("Digite um valor: "));
 
@@ -253,7 +253,7 @@ function exercise15() {
 }
 
 function exercise16() {
-  alert(`Você escolheu o ${addTextoBtn[15]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[15].name}! Clique para continuar.`);
 
   const nota1 = parseFloat(prompt("Digite a primeira nota: "));
   const nota2 = parseFloat(prompt("Digite a segunda nota: "));
@@ -268,7 +268,7 @@ function exercise16() {
 }
 
 function exercise17() {
-  alert(`Você escolheu o ${addTextoBtn[16]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[16].name}! Clique para continuar.`);
 
   const nota1 = parseFloat(prompt("Digite a primeira nota: "));
   const nota2 = parseFloat(prompt("Digite a segunda nota: "));
@@ -290,7 +290,7 @@ function exercise17() {
 }
 
 function exercise18() {
-  alert(`Você escolheu o ${addTextoBtn[17]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[17].name}! Clique para continuar.`);
 
   const a = parseFloat(prompt("Digite o valor de A: "));
   const b = parseFloat(prompt("Digite o valor de B: "));
@@ -314,7 +314,7 @@ function exercise18() {
 }
 
 function exercise19() {
-  alert(`Você escolheu o ${addTextoBtn[18]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[18].name}! Clique para continuar.`);
 
   const a = parseFloat(prompt("Digite o valor de A: "));
   const b = parseFloat(prompt("Digite o valor de B: "));
@@ -334,7 +334,7 @@ function exercise19() {
 }
 
 function exercise20() {
-  alert(`Você escolheu o ${addTextoBtn[19]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[19].name}! Clique para continuar.`);
 
   const num1 = parseFloat(prompt("Digite o valor 1: "));
   const num2 = parseFloat(prompt("Digite o valor 2: "));
@@ -352,7 +352,7 @@ function exercise20() {
 }
 
 function exercise21() {
-  alert(`Você escolheu o ${addTextoBtn[20]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[20].name}! Clique para continuar.`);
 
   const num1 = parseInt(prompt("Digite o valor 1: "));
   const num2 = parseInt(prompt("Digite o valor 2: "));
@@ -387,7 +387,7 @@ function exercise21() {
 }
 
 function exercise22() {
-  alert(`Você escolheu o ${addTextoBtn[21]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[21].name}! Clique para continuar.`);
 
   const num = parseInt(prompt("Digite um valor: "));
 
@@ -396,7 +396,7 @@ function exercise22() {
 }
 
 function exercise23() {
-  alert(`Você escolheu o ${addTextoBtn[22]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[22].name}! Clique para continuar.`);
 
   const num = parseInt(prompt("Digite um valor (de 1 a 9): "));
 
@@ -405,7 +405,7 @@ function exercise23() {
 }
 
 function exercise24() {
-  alert(`Você escolheu o ${addTextoBtn[23]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[23].name}! Clique para continuar.`);
 
   const num = parseInt(prompt("Digite um valor (menor que 3): "));
 
@@ -414,7 +414,7 @@ function exercise24() {
 }
 
 function exercise25() {
-  alert(`Você escolheu o ${addTextoBtn[24]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[24].name}! Clique para continuar.`);
 
   const nome = prompt("Digite seu nome: ");
   const sexo = prompt("Digite seu sexo (M/F): ");
@@ -427,7 +427,7 @@ function exercise25() {
 
 // Começo Tarefas pag 41 e 42
 function exercise26() {
-  alert(`Você escolheu o ${addTextoBtn[25]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[25].name}! Clique para continuar.`);
 
   let mult = 1;
   let num = parseInt(prompt("Digite um número:"));
@@ -444,7 +444,7 @@ function exercise26() {
 }
 
 function exercise27() {
-  alert(`Você escolheu o ${addTextoBtn[26]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[26].name}! Clique para continuar.`);
 
   let count = 1;
   let soma = 0;
@@ -460,7 +460,7 @@ function exercise27() {
 }
 
 function exercise28() {
-  alert(`Você escolheu o ${addTextoBtn[27]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[27].name}! Clique para continuar.`);
 
   let count = 1;
   let soma = 0;
@@ -478,7 +478,7 @@ function exercise28() {
 }
 
 function exercise29() {
-  alert(`Você escolheu o ${addTextoBtn[28]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[28].name}! Clique para continuar.`);
 
   let count = 1;
 
@@ -494,7 +494,7 @@ function exercise29() {
 }
 
 function exercise30() {
-  alert(`Você escolheu o ${addTextoBtn[29]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[29].name}! Clique para continuar.`);
 
   let calc = 0;
   let count = 0;
@@ -514,7 +514,7 @@ function exercise30() {
 }
 
 function exercise31() {
-  alert(`Você escolheu o ${addTextoBtn[30]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[30].name}! Clique para continuar.`);
 
   let valor = parseInt(prompt("Digite a Base: "));
   let expoente = parseInt(prompt("Digite o Expoente: "));
@@ -538,7 +538,7 @@ function exercise31() {
 }
 
 function exercise32() {
-  alert(`Você escolheu o ${addTextoBtn[31]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[31].name}! Clique para continuar.`);
 
   let n1 = 0, n2 = 1, count = 0, nth;
 
@@ -561,7 +561,7 @@ function exercise32() {
 }
 
 function exercise33() {
-  alert(`Você escolheu o ${addTextoBtn[32]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[32].name}! Clique para continuar.`);
 
   let gCelsius = 10;
   let count = 0;
@@ -578,7 +578,7 @@ function exercise33() {
 }
 
 function exercise34() {
-  alert(`Você escolheu o ${addTextoBtn[33]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[33].name}! Clique para continuar.`);
 
   let valor, somatoria = 0, count = 1;
 
@@ -592,7 +592,7 @@ function exercise34() {
 }
 
 function exercise35() {
-  alert(`Você escolheu o ${addTextoBtn[34]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[34].name}! Clique para continuar.`);
 
   let ehPar = 0;
   let auxiliar = 0;
@@ -615,7 +615,7 @@ function exercise35() {
 }
 
 function exercise36() {
-  alert(`Você escolheu o ${addTextoBtn[35]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[35].name}! Clique para continuar.`);
 
   let count = 0;
   let area, largura, comprimento, totalArea = 0;
@@ -661,7 +661,7 @@ function exercise36() {
 }
 
 function exercise37() {
-  alert(`Você escolheu o ${addTextoBtn[36]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[36].name}! Clique para continuar.`);
 
   let menor, maior, valor, count = 0;
   let continuar = 's';
@@ -692,7 +692,7 @@ function exercise37() {
 
 // Começo Tarefas pag 50
 function exercise38() {
-  alert(`Você escolheu o ${addTextoBtn[37]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[37].name}! Clique para continuar.`);
 
   let contadora;
   contadora = 15;
@@ -707,7 +707,7 @@ function exercise38() {
 }
 
 function exercise39() {
-  alert(`Você escolheu o ${addTextoBtn[38]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[38].name}! Clique para continuar.`);
 
   let contadora = 1;
   let somados = 0;
@@ -722,7 +722,7 @@ function exercise39() {
 }
 
 function exercise40() {
-  alert(`Você escolheu o ${addTextoBtn[39]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[39].name}! Clique para continuar.`);
 
   let count = 0;
 
@@ -736,7 +736,7 @@ function exercise40() {
 }
 
 function exercise41() {
-  alert(`Você escolheu o ${addTextoBtn[40]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[40].name}! Clique para continuar.`);
 
   let count = 0;
   let atual = 0;
@@ -752,7 +752,7 @@ function exercise41() {
 }
 
 function exercise42() {
-  alert(`Você escolheu o ${addTextoBtn[41]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[41].name}! Clique para continuar.`);
 
   let count = 0;
   let valor, somatorio = 0, fatorial;
@@ -775,7 +775,7 @@ function exercise42() {
 }
 
 function exercise43() {
-  alert(`Você escolheu o ${addTextoBtn[42]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[42].name}! Clique para continuar.`);
 
   let count = 1;
   let valor, somatorio = 0, media;
@@ -799,7 +799,7 @@ function exercise43() {
 }
 
 function exercise44() {
-  alert(`Você escolheu o ${addTextoBtn[43]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[43].name}! Clique para continuar.`);
 
   let count = 1;
   let fatorial = 1;
@@ -814,7 +814,7 @@ function exercise44() {
 }
 
 function exercise45() {
-  alert(`Você escolheu o ${addTextoBtn[44]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[44].name}! Clique para continuar.`);
 
   let count = 1;
   let area = 0, largura = 0, comprimento = 0, totalArea = 0;
@@ -860,7 +860,7 @@ function exercise45() {
 }
 
 function exercise46() {
-  alert(`Você escolheu o ${addTextoBtn[45]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[45].name}! Clique para continuar.`);
 
   let divisor = 0, dividendo = 0, count = 0;
   let continuar = '';
@@ -883,7 +883,7 @@ function exercise46() {
 
 // Tarefas pag 60
 function exercise47() {
-  alert(`Você escolheu o ${addTextoBtn[46]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[46].name}! Clique para continuar.`);
 
   console.clear()
   for (let contadora = 15; contadora <= 200; contadora++) {
@@ -894,7 +894,7 @@ function exercise47() {
 }
 
 function exercise48() {
-  alert(`Você escolheu o ${addTextoBtn[47]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[47].name}! Clique para continuar.`);
 
   let num = parseInt(prompt("Digite um número:"));
 
@@ -908,7 +908,7 @@ function exercise48() {
 }
 
 function exercise49() {
-  alert(`Você escolheu o ${addTextoBtn[48]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[48].name}! Clique para continuar.`);
 
   let somados = 0;
 
@@ -918,7 +918,7 @@ function exercise49() {
 }
 
 function exercise50() {
-  alert(`Você escolheu o ${addTextoBtn[49]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[49].name}! Clique para continuar.`);
 
   let somados = 0;
 
@@ -930,7 +930,7 @@ function exercise50() {
 }
 
 function exercise51() {
-  alert(`Você escolheu o ${addTextoBtn[50]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[50].name}! Clique para continuar.`);
 
   console.clear()
   for (let count = 0; count <= 20; count++) {
@@ -941,7 +941,7 @@ function exercise51() {
 }
 
 function exercise52() {
-  alert(`Você escolheu o ${addTextoBtn[51]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[51].name}! Clique para continuar.`);
 
   console.clear()
   for (let count = 1; count <= 200; count++) {
@@ -953,7 +953,7 @@ function exercise52() {
 }
 
 function exercise53() {
-  alert(`Você escolheu o ${addTextoBtn[52]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[52].name}! Clique para continuar.`);
 
   let base = 3;
   let calc;
@@ -971,7 +971,7 @@ function exercise53() {
 }
 
 function exercise54() {
-  alert(`Você escolheu o ${addTextoBtn[53]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[53].name}! Clique para continuar.`);
 
   let calc;
   let base = parseInt(prompt("Digite a base:"));
@@ -988,7 +988,7 @@ function exercise54() {
 }
 
 function exercise55() {
-  alert(`Você escolheu o ${addTextoBtn[54]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[54].name}! Clique para continuar.`);
   let n1 = 1;
   let n2 = 1;
   let nth;
@@ -1008,7 +1008,7 @@ function exercise55() {
 }
 
 function exercise56() {
-  alert(`Você escolheu o ${addTextoBtn[55]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[55].name}! Clique para continuar.`);
 
   let gFahren;
 
@@ -1022,7 +1022,7 @@ function exercise56() {
 }
 
 function exercise57() {
-  alert(`Você escolheu o ${addTextoBtn[56]}! Clique para continuar.`);
+  alert(`Você escolheu o ${exercisesManzano[56].name}! Clique para continuar.`);
 
   let fatorial = 1;
   let fatorial1;
