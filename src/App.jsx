@@ -112,6 +112,22 @@ export default function App() {
             })}
             contentText="Exercícios da página 50"
           />
+<Div
+            className="exercises"
+            content={exercisesFaccat.map((exercise, index) => {
+              if (index >= 47 && index < 58) {
+                return (
+                  <Button
+                    className="btn btn-exercise"
+                    key={index}
+                    name={exercise.name}
+                    functionName={exercise.func}
+                  />
+                );
+              }
+            })}
+            contentText="Exercícios da página 66"
+          />
         </div>
       ) : null}
     </>
