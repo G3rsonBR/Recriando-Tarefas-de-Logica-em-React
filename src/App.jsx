@@ -80,6 +80,22 @@ export default function App() {
             })}
             contentText="Exercícios da página 41 e 42"
           />
+<Div
+            className="exercises"
+            content={exercisesFaccat.map((exercise, index) => {
+              if (index >= 26 && index < 38) {
+                return (
+                  <Button
+                    className="btn btn-exercise"
+                    key={index}
+                    name={exercise.name}
+                    functionName={exercise.func}
+                  />
+                );
+              }
+            })}
+            contentText="Exercícios da página 46 e 47"
+          />
         </div>
       ) : null}
     </>
